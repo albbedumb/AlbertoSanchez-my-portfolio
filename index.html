@@ -15,7 +15,7 @@
     <meta property="og:url" content="/this-page.html" />
     <meta property="og:site_name" content="Your Site Name" />
 
-    <link href="styles.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
     <!-- importar bootstrap  -->
@@ -31,109 +31,44 @@
       crossorigin="anonymous"
     ></script>
     <!-- fin importacion bootstrap  -->
-  </head>
-
-  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+
   </head>
-<body style="background-color:beige ;">
-  <div class="col col-9">
-    <style>
-      section {
-          margin-bottom: 100px; 
-          padding: 150px; /* Añade espacio dentro de la sección */
-          background-color: #D9E1cc; /* Color de fondo para las secciones */
-      }
-  </style>
 
-</body>
-<div class="text-bg-light p-3">My portfolio</div>
-
-      <section>
-        <h1 class="root">Alberto Sánchez</h1>
-        <p>Diseñador. Estudiante de la UAM Cuajimalpa</p>
-        <img src="img/fotos/autoretrato.jpg" class="img-fluid" alt="Aqui va mi foto">
-      </section>
+  <body class="main">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">My portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Software</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
-  <section>
-    <h2>Software que utilizo</h2>
-    <p>AutoCad</p>
-    <img src="img/fotos/Autocad.png" class="img-fluid" alt="foto de software" width=110px>
-    <p>Illustrator</p>
-    <img src="img/fotos/Illustrator.svg.png" class="img-fluid" alt="foto de software" width="90px">
-    <p>3D Max</p>
-    <img src="img/fotos/3DMAX.png" class="img-fluid" alt="Aqui va mi foto" width="110px">
-  </section>
-
-  <section>
-    <h3>Mis proyectos</h3>
-        <img src="img/fotos/Conejo.jpg" class="img-fluid" alt="aquí va la foto de proyecto" width="500px">
-        <p>Conecomelón: Este fue un proyecto en el que elaboré un juguete para el desarrollo psicomotríz para niños de 3 a 6 años de edad. El cual concistió en la estimulación de la habilidad oculo-manual, usando el concepto de alimentar al conejo.</p>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <img src="img/fotos/DownBadLamp.jpg" class="img-fluid" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-            
-              </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img src="img/fotos/cosmic.jpg" class="img-fluid" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-      
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/fotos/luz.jpg" class="img-fluid" alt="aquí va la foto de proyecto">
-              <div class="carousel-caption d-none d-md-block">
-
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-        <p>Luminaria en movimiento: Elaboré una lámpara usando anillos de PVC termoformando estireno para las tapas. Una parte esencial era la historia que contaba la lámpara, porque esto es lo que la hace diferente y para esto utilicé el concepto de una canción para irlo plasmando con relieve sobre los anillos de PVC, utilizando un mototool.  </p>
-        <img src="img/fotos/amarillo.jpg" class="img-fluid" alt="aquí va la foto de proyecto" width="500px">
-        <p>Señal luminosa de advertencia para piso resbaloso, con corte y grabado láser sobre acrílico</p>
-        <img src="img/fotos/Proyecto Alameda.jpg" class="img-fluid" alt="aquí va la foto de proyecto" width="500px">
-        <p>Propuesta de diseño de moviliario y señalética para la mejora de la Alameda Poniente</p>
-
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="/img/fotos/port.png" class="img-fluid" alt="proyecto" width="500px"> 
-            </div>
-            <div class="carousel-item">
-              <img src="img/fotos/Euforia.jpg" class="img-fluid" alt="proyecto" width="500px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/fotos/supercut.png" class="d-block w-100" alt="proyecto" width="500px">
-            </div>
-          </div>
-        </div>
-        <p>Proyectos del trimestre actual</p>
-  </section>
-
-  <section>
-    <h4>Contacto</h4>
-    <p>instagram: </p>
-    <p><a href="#" class="https://www.instagram.com/albbedumb/">@albbedumb</a></p>
-    <p>albbedumb@gmail.com</p>
-    <p>5573998450</p>
-  </section>
-
+    <section>
+      <h1 class="titulo">Alberto Sánchez</h1>
+      <h2 class="texto">Diseñador. Estudiante de la UAM Cuajimalpa</h2>
+    </section>
+  </body>

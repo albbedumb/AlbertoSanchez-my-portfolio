@@ -1,10 +1,28 @@
-
-  
-.root {
-  font-family: "Merriweather", serif;
-  font-optical-sizing: auto;
-  font-weight: weight="300px"
+ :root{
+  --color-primary: #D9E1CC;
+  --color-secondary: #ffffff;
 }
 
+h1.titulo {
+  color: var(--color-primary);
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+}
 
-
+h2.texto {
+  color: var(--color-secondary);
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body.main {
+  background-image: url(img/fotos/Portafolio.jpg);
+  background-repeat: no-repeat ;
+  background-size: cover;
+}
