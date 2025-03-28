@@ -1,6 +1,7 @@
  :root{
   --color-primary: #B3B5A7;
   --color-secondary: #ffffff;
+  --color-tertiary: #333333;
 }
 
 .foto-principal{
@@ -11,6 +12,11 @@
   padding-bottom: 20rem;
 }
 
+.papel{
+  background-image: url(img/fotos/Rippedpaper.png);
+  background-repeat: no-repeat ;
+  background-size: cover;
+}
 
 h1.titulo {
   color: var(--color-primary);
@@ -31,6 +37,11 @@ h2.texto {
   font-style: normal;
   text-align: left;
   padding: 0.5rem 5rem;
+}
+.background1 {
+  background-color: #333333;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 h3.titulo {
@@ -56,6 +67,7 @@ h4.titulo {
   font-weight: 700;
   font-style: normal;
   text-align: center;
+  padding-top: 7rem;
 }
 
 
@@ -66,4 +78,11 @@ h5.titulo {
   font-weight: 700;
   font-style: normal;
   text-align: center;
+}
+
+.buttons {
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
 }
