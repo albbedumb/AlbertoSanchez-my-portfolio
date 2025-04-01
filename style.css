@@ -4,12 +4,14 @@
   --color-tertiary: #333333;
 }
 
-.foto-principal{
-  background-image: url(img/fotos/Portafolio.jpg);
-  background-repeat: no-repeat ;
-  background-size: cover;
-  padding-top: 5rem;
-  padding-bottom: 20rem;
+.navbar-toggler{
+  color: var(--color-primary)
+  position: fixed;
+}
+
+
+.inicio{
+  background-color: var(--color-tertiary)
 }
 
 .papel{
@@ -26,7 +28,7 @@ h1.titulo {
   font-style: normal;
   text-align: left;
   padding: 0.5rem 0.5rem;
-  padding-left: 5rem;
+  padding-left: 0rem;
 }
 
 h2.texto {
@@ -38,6 +40,7 @@ h2.texto {
   text-align: left;
   padding: 0.5rem 5rem;
 }
+
 .background1 {
   background-color: #333333;
   padding-top: 5rem;
@@ -51,6 +54,7 @@ h3.titulo {
   font-weight: 700;
   font-style: normal;
   text-align: center;
+  padding-top: 7rem;
 }
 
 .flex-container{
@@ -58,7 +62,6 @@ h3.titulo {
   flex-direction: row;
   justify-content: space-between;
 }
-
 
 h4.titulo {
   color: var(--color-primary);
@@ -86,3 +89,45 @@ h5.titulo {
   padding-top: 2rem;
   padding-bottom: 10rem;
 }
+
+.programas {
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+}
+
+h6.titulo {
+  color: var(--color-secondary);
+  font-family: "Playfair Display", serif;
+  font-size: 8rem;
+  font-weight: 700;
+  font-style: normal;
+  text-align: right;
+}
+
+.ripped{
+  background-image: url(img/fotos/white-ripped-png.webp);
+  background-repeat: no-repeat ;
+  background-size: cover;
+}
+
+h7.texto {
+  color: var(--color-secondary);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  
+}
+
+h8.titulo {
+  color: var(--color-secondary);
+  font-family: "Playfair Display", serif;
+  font-size: 5rem;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  padding: 0.5rem 0.5rem;
+  padding-left: 0rem;
