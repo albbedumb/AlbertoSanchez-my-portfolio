@@ -8,11 +8,13 @@
   background-color: var(--color-tertiary)
 }
 
-.papel{
-  background-image: url(img/fotos/Rippedpaper.png);
-  background-repeat: no-repeat ;
-  background-size: cover;
+.textura{
+width: 100%;
 }
+
+.papel{
+  width: 50%;
+  }
 
 h1.titulo {
   color: var(--color-primary);
@@ -36,9 +38,7 @@ h2.texto {
 }
 
 .background1 {
-  background-color: #333333;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  background-color: #ffffff;
 }
 
 h3.titulo {
@@ -47,8 +47,7 @@ h3.titulo {
   font-size: 10rem;
   font-weight: 700;
   font-style: normal;
-  text-align: center;
-  padding-top: 5rem;
+  text-align:justify;
 }
 
 h4.titulo {
@@ -58,7 +57,6 @@ h4.titulo {
   font-weight: 700;
   font-style: normal;
   text-align: center;
-  padding-top: 5rem;
 }
 
 
@@ -75,12 +73,8 @@ h5.titulo {
   display: flex;
       justify-content: center;
       align-items: center;
-      padding-bottom: 6rem;
     }
 
-.img{
-  padding-bottom: 6rem;
-}
 
 h6.titulo {
   color: var(--color-secondary);
@@ -113,14 +107,9 @@ h8.titulo {
   font-size: 4rem;
   font-weight: 700;
   font-style: normal;
-  text-align: left;
-  padding: 0.5rem 5rem;
+  text-align:justify;
   
- }
-
- .programas {
-  padding-left: 0rem;
-  padding-bottom: 0rem;
+  
  }
 
  .links {
@@ -130,7 +119,11 @@ h8.titulo {
   font-weight: 400;
   font-style: normal;
   text-align: left;
-  padding: 0.5rem 5rem;
+ }
+
+ .row {
+  --bs-gutter-x: 0rem ¡important;
+  --bs-gutter-y: 0;
  }
 
 
