@@ -119,10 +119,15 @@ h8.titulo {
   
  }
 
- .links {
-  color:  black; 
+.final{
+  padding-bottom: 10rem;
+  background-color: var(--color-tertiary);
+}
+
+ a.link {
+  color: #B3B5A7;
  text-decoration: none;
- padding-left: 10rem;
+ padding-left: 5rem;
  }
 
  .img {
