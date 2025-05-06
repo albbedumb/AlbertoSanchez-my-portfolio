@@ -4,6 +4,9 @@
   --color-tertiary: #333333;
 }
 
+.navbar{
+  font-family: "Cormorant Garamond", serif;
+}
 .main{
   overflow-x: hidden;
 }
@@ -21,10 +24,6 @@
 .textura{
 width: 100%;
 }
-
-.papel{
-  width: 50%;
-  }
 
 h1.titulo {
   color: var(--color-primary);
@@ -128,35 +127,18 @@ h6.titulo {
   text-align: right;
 }
 
-.ripped{
-  background-image: url(img/fotos/white-ripped-png.webp);
-  background-repeat: no-repeat ;
-  background-size: cover;
-}
 
-h7.texto {
-  color: var(--color-secondary);
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.5rem;
-  font-weight: 400;
-  font-style: normal;
-  text-align: left;
-  
-}
-
-h8.titulo {
+.estilo8 {
   color: var(--color-secondary);
   font-family: "Playfair Display", serif;
   font-size: 4rem;
   font-weight: 700;
   font-style: normal;
-  text-align:justify;
-  
-  
+  text-align:left;
  }
 
 .final{
-  padding-bottom: 10rem;
+  padding-bottom: 15rem;
   background-color: var(--color-tertiary);
 }
 
@@ -168,19 +150,25 @@ h8.titulo {
 
 
  @media (max-width: 768px) {
-  .ripped {
-    width: 5remm;
+
+
+  h1.titulo{
+    text-align: center;
+    font-size: 4rem;
+    padding: 0rem 0rem;
+  }
+
+  h2.texto{
+    text-align: justify;
+
   }
 
   h3.titulo {
     font-size: 4rem;
   }
+  
 
   h4.titulo {
-    font-size: 4rem;
-  }
-
-  h8.titulo{
     font-size: 4rem;
   }
 
@@ -192,5 +180,7 @@ h8.titulo {
     font-size: 4rem;
   }
 }
+
+
 
 
